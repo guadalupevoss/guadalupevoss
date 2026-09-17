@@ -1,0 +1,104 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="55%" stop-color="#A7D8F5"/>
+      <stop offset="100%" stop-color="#EAF7FF"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" fill="url(#sky)"/>
+
+  <!-- Sun -->
+  <circle cx="980" cy="70" r="36" fill="#FFF4B2" opacity="0.9"/>
+
+  <!-- Clouds -->
+  <g opacity="0.95">
+    <g>
+      <ellipse cx="150" cy="85" rx="38" ry="22" fill="white"/>
+      <ellipse cx="190" cy="80" rx="45" ry="28" fill="white"/>
+      <ellipse cx="235" cy="88" rx="34" ry="20" fill="white"/>
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="-260 0"
+        to="1250 0"
+        dur="42s"
+        repeatCount="indefinite"/>
+    </g>
+
+    <g opacity="0.9">
+      <ellipse cx="420" cy="130" rx="34" ry="20" fill="white"/>
+      <ellipse cx="455" cy="124" rx="40" ry="25" fill="white"/>
+      <ellipse cx="495" cy="131" rx="30" ry="18" fill="white"/>
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="-520 0"
+        to="980 0"
+        dur="32s"
+        repeatCount="indefinite"/>
+    </g>
+
+    <g opacity="0.85">
+      <ellipse cx="830" cy="95" rx="44" ry="24" fill="white"/>
+      <ellipse cx="875" cy="89" rx="50" ry="30" fill="white"/>
+      <ellipse cx="925" cy="97" rx="36" ry="22" fill="white"/>
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="-980 0"
+        to="400 0"
+        dur="50s"
+        repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- Birds -->
+  <g opacity="0.75" stroke="#445B6E" stroke-width="3" stroke-linecap="round" fill="none">
+    <g>
+      <path d="M0 0 Q8 -8 16 0 Q24 -8 32 0"/>
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="-50 170"
+        to="1250 120"
+        dur="18s"
+        repeatCount="indefinite"/>
+    </g>
+
+    <g opacity="0.7">
+      <path d="M0 0 Q7 -7 14 0 Q21 -7 28 0"/>
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="-120 210"
+        to="1230 150"
+        dur="24s"
+        repeatCount="indefinite"/>
+    </g>
+
+    <g opacity="0.65">
+      <path d="M0 0 Q10 -9 20 0 Q30 -9 40 0"/>
+      <animateTransform
+        attributeName="transform"
+        type="translate"
+        from="-180 135"
+        to="1280 95"
+        dur="21s"
+        repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- Soft horizon -->
+  <ellipse cx="600" cy="300" rx="700" ry="70" fill="#D7EEF9" opacity="0.65"/>
+
+  <!-- Text -->
+  <text x="60" y="210" fill="white" font-family="Segoe UI, Arial, sans-serif" font-size="36" font-weight="700">
+    Guadalupe Voss
+  </text>
+  <text x="60" y="245" fill="#F8FDFF" font-family="Segoe UI, Arial, sans-serif" font-size="20">
+    Electronics Engineer • Digital Design • ASIC • DSP
+  </text>
+</svg>
